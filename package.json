@@ -1,0 +1,38 @@
+{
+  "name": "uplexa-nodejs",
+  "version": "4.0.0",
+  "description": "A uPlexa library written in Node.js.",
+  "main": "./lib/wallet.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uplexa/uplexa-nodejs.git"
+  },
+  "keywords": [
+    "uPlexa",
+    "crypto",
+    "currency",
+    "poloniex",
+    "shapeshift",
+    "cryptocurrency",
+    "Node.js",
+    "uplexa-wallet-rpc",
+    "bitcoin",
+    "bituplexad"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uplexa/uplexa-nodejs/issues"
+  },
+  "homepage": "https://github.com/uplexa/uplexa-nodejs#readme",
+  "dependencies": {
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.3.0"
+  }
+}
